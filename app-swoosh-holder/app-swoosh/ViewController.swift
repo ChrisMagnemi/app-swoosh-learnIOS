@@ -16,10 +16,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // programatic positioniong of some UI elements
-        swoosh.frame = CGRect(x: view.frame.size.width/2 - swoosh.frame.size.width/2, y: 50,
-                              width: swoosh.frame.size.width, height: swoosh.frame.size.height)
-        bgImg.frame = view.frame
+       // programatic positioniong of some UI elements, taken out in favor of auto-layout
+//        swoosh.frame = CGRect(x: view.frame.size.width/2 - swoosh.frame.size.width/2, y: 50,
+//                              width: swoosh.frame.size.width, height: swoosh.frame.size.height)
+//        bgImg.frame = view.frame
     }
 
     override func didReceiveMemoryWarning() {
